@@ -1,0 +1,153 @@
+body{
+    text-align: center;
+    font: 1.5em arial;
+    background-image: url("img/wallpaper.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+table{
+    margin: auto;
+    margin-top: 10px;
+    border: 3px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    font: 1em arial;
+    background-color: rgba(165, 163, 163, 0.932);
+}
+
+table:hover{
+    cursor: pointer;
+}
+
+td{
+    height: 40px;
+    width: 40px;
+    padding: 2px;
+}
+
+button{
+    height: 50px;
+    width: 80px;
+    border-radius: 30%;
+    background-color: rgb(105, 105, 212);
+    font-weight: bold;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.smiley{
+    margin:auto;
+    margin-top: 5px;
+    height: 45px;
+    width: 45px;
+    font-size: 1.3em;
+}
+
+.smiley:hover{
+    cursor: pointer;
+}
+
+.lives{
+    height: 40px;
+    width: 100px;
+    display:inline-block;
+    margin: 15px;   
+}
+
+.life{
+    font-size: 1.3em;
+}
+
+.hints{
+    height: 30px;
+    width: 100px;
+    display:inline-block;
+    font-size: 1.2em;
+    margin: 15px;
+}
+
+.hints:hover{
+    cursor: pointer;
+}
+
+.flags{
+    display:inline-block;
+    font-size: 1.2em;
+    margin: 15px;
+    width: 90px;
+}
+
+.scoreCont{
+    font-size: 0.9em;
+    text-align:center;
+    height: 60px;
+    width: 370px;
+    margin: auto;
+    background-color: lightgray;
+    border: 2px solid gray;
+    margin-top: 10px;
+}
+
+.score{
+    display:inline-block;
+    margin: 8px;
+    width: 100px;
+    text-align: center;
+}
+
+.clock{
+    margin: auto;
+    border-color: silver;
+    border: 2px solid gray;
+    margin-top:10px;
+    text-align: center;
+
+    font-family: monospace;
+    font-size: 1.3em;
+    background-color:  lightgray;
+    height: 30px;
+    width: 80px;
+    padding: 10px;
+}
+
+.red{
+    color: red;
+}
+
+.green{
+    color: green;
+}
+
+.blue{
+    color: darkblue;
+}
+
+.zero{
+    background-color:gray;
+}
+
+.modal{
+    display: none;
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    background-color: gray;
+
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 4em;
+  }
+  
+  .mineGreen{
+      background-color: green;
+  }
+
+  .mineRed{
+    background-color: red;
+}

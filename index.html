@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css"/>
+    <title>Mine Sweeper</title>
+</head>
+<body onload="init()">
+    <div class="modal"></div>
+    <button onclick="levels(4)">Begginer</button>
+    <button onclick="levels(8)">Normal</button>
+    <button onclick="levels(12)">Expert</button>
+    <div class="smiley" onclick="init()"></div>
+
+    <div class="lives"></div>
+    <div class="flags"></div>
+    <div class="hints" onclick="hintsClicked()"></div>
+
+    <table border="1">
+        <tbody></tbody>
+    </table>
+
+    <div class="clock"></div>
+    <div class="scoreCont">
+        <div class="score score1"></div>
+        <div class="score score2"></div>
+        <div class="score score3"></div>
+    </div>
+
+
+    <script src="js/util.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
