@@ -4,6 +4,7 @@ body{
     background-image: url("img/wallpaper.jpg") ;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 table{
@@ -12,7 +13,7 @@ table{
     border: 3px solid black;
     border-collapse: collapse;
     text-align: center;
-    font: 1em arial;
+    font: 1em arial;    
     background-color: rgba(165, 163, 163, 0.932);
 }
 
